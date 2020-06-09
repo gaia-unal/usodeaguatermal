@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termacolores</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="css/responsive.css" type="text/css" rel="stylesheet" />
+<link href="js/jquery-ui/jquery-ui.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
+</head>
+
+<body class="creditos">
+
+
+
+
+
+<div id="encabezado">
+    <div id="bot_elproyecto" class="bl-box">
+        <a href="index.html">
+            Inicio
+        </a>
+    </div>
+</div>
+
+<div id="contenedor_creditos">
+
+	<div id="creditos_izq" class="columnas_creditos">
+    	<div class="contenidos_creditos">
+        	<div class="titulo_cabezote" id="tit_creditos">
+                <div>
+                    Créditos
+                </div>
+    		</div>
+            <div id="texto_creditos">
+        Este software/aplicativo web es uno de los productos de una investigación liderada por dos grupos de investigación de la Universidad de Caldas (Promoción de la salud y prevención de la enfermedad y Gerontología y Geriatría) realizada en el marco del proyecto “Desarrollo de un entorno tecnológico Termacolores en el Resguardo Indígena de Puracé (RIP) para la investigación e innovación en el uso de aguas termales, aguas minerales y aprovechamiento del azufre natural orientados a potenciar el turismo y bienestar en el departamento del Cauca” de la Universidad Nacional de Colombia sede Manizales, con el propósito de orientar el uso seguro del agua termal con recomendaciones basadas en evidencia científica y de acuerdo a las características del agua, del ambiente y del tipo de usuarios, haciendo énfasis en el adulto mayor. 
+        	</div>
+        </div>
+    </div>
+    
+    <div id="creditos_der" class="columnas_creditos">
+    	<div class="contenidos_creditos">
+        	<img src="images/logos_creditos.png" />
+        </div>
+    </div>
+
+</div>
+
+<div id="footer_creditos">
+
+</div>
+
+
+
+
+
+<script src="js/jquery-ui/external/jquery/jquery.js"></script>
+<script src="js/jquery-ui/jquery-ui.js"></script>
+<script>
+
+$( "#accordion" ).accordion({
+  heightStyle: "content",
+  collapsible: true
+});
+
+$( "#button" ).button();
+$( "#button-icon" ).button({
+	icon: "ui-icon-gear",
+	showLabel: false
+});
+
+
+$( "#radioset" ).buttonset();
+
+
+$( "#controlgroup" ).controlgroup();
+
+
+$( "#tabs" ).tabs();
+
+
+$( "#datepicker" ).datepicker({
+	inline: true
+});
+
+
+$( "#tooltip" ).tooltip();
+
+// Hover states on the static widgets
+$( "#dialog-link, #icons li" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+</script>
+
+
+</body>
+</html>

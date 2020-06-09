@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termacolores</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="css/responsive.css" type="text/css" rel="stylesheet" />
+<link href="js/jquery-ui/jquery-ui.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+
+<!-- Llamados para el mapa !-->
+<link rel="stylesheet" type="text/css" media="all" href="styles/mapa.css" />
+<link rel="stylesheet" type="text/css" media="all" href="styles/jquery.svg.css" />
+
+<!-- Fin llamados para el mapa !-->
+
+</head>
+
+<body>
+
+<div id="encabezado">
+    <div id="bot_elproyecto">
+        <a href="creditos.html">
+    		El Proyecto
+        </a>
+    </div>
+</div>
+
+<div id="barra_botones">
+    <a class="enlace" href="agua.html" title="Sobre el agua termal">
+    <div class="bot_seccion fondo_azul_1">
+        <div class="contenidos_bot_seccion">
+            <img src="images/icono_1.png" />
+        </div>
+    </div>
+    </a>
+
+    <a class="enlace" href="mapa.html" title="¿Dónde encontramos aguas termales?">
+    <div class="bot_seccion fondo_verde_1">
+        <div class="contenidos_bot_seccion">
+            <img src="images/icono_2.png" />
+        </div>
+    </div>
+    </a>
+
+    <a class="enlace" href="parque.html" title="El Parque Nacional Natural Puracé">
+    <div class="bot_seccion fondo_amarillo">
+        <div class="contenidos_bot_seccion">
+            <img src="images/icono_3.png" />
+        </div>
+    </div>
+    </a>
+
+    <a class="enlace" href="resguardo.html" title="El Resguardo">
+    <div class="bot_seccion fondo_azul_2">
+        <div class="contenidos_bot_seccion">
+            <img src="images/icono_4.png" />
+        </div>
+    </div>
+    </a>
+
+    <a class="enlace" href="municipio.html" title="El municipio de Puracé">
+    <div class="bot_seccion fondo_verde_2">
+        <div class="contenidos_bot_seccion">
+            <img src="images/icono_5.png" />
+        </div>
+    </div>
+    </a>
+
+    <a class="enlace" href="form.html" title="ayúdenos a comprender más sobre el agua termal">
+    <div class="bot_seccion fondo_naranja">
+        <div class="contenidos_bot_seccion">
+            <img src="images/icono_6.png" />
+        </div>
+    </div>
+    </a>
+</div>
+
+<div id="contenedor_general" class="mapa_donde">
+	<div class="cabezote mapa_donde">
+    	<div class="titulo_cabezote">
+        <div>
+    		¿Dónde encontramos<br>
+			<span>aguas termales? </span>
+            </div>
+    	</div>
+    </div>
+	<div id="contenidos_izq">
+
+        <div class='mapa_svg'>
+            <div id="mapa_colombia">
+                <div class='texto flecha derecha arriba' data-termales='termales_01'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Atlántico</h1>
+						<h2>Volcán del Totumo</h2>
+                        <p>Vía Barranquilla - Cartagena</p>
+                    </div>
+                </div>
+                <div class='texto flecha izquierda arriba' data-termales='termales_02'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Magdalena</h1>
+                        <h2>Volcán de Ciénaga</h2>
+                        <p>Ciénaga</p>
+                    </div>
+                </div>
+                <div class='texto flecha derecha arriba' data-termales='termales_03'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Córdoba</h1>
+						<h2>Volcán Arboletes</h2>
+                        <p>Límite Antioquía y Córdoba, Montería – Coveñas</p>
+                        <h2>Volcán de San Antero</h2>
+                        <p>Montería</p>
+                        <h2>Volcán de Puerto escondido</h2>
+                        <p>Montería</p>
+                    </div>
+                </div>
+                <div class='texto flecha izquierda arriba' data-termales='termales_04'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Cesar</h1>
+                        <h2>Río Badillo</h2>
+                        <p>Corregimiento Río Badillo</p>
+                    </div>
+                </div>
+                <div class='texto flecha derecha arriba' data-termales='termales_05'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Risaralda</h1>
+                        <h2>Termales Santa Rosa de Cabal</h2>
+                        <p>9 km Santa Rosa de Cabal</p>
+                        <h2>Ecotermales de San Vicente</h2>
+                        <p>18 km Laguna del Otún</p>
+                    </div>
+                </div>
+                <div class='texto flecha derecha arriba' data-termales='termales_06'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Caldas</h1>
+                        <h2>Hotel Termales El Otoño</h2>
+                        <p>Manizales, Vereda Gallinazo</p>
+                        <h2>Termales Tierra Viva</h2>
+                        <p>Manizales, Vereda Gallinazo</p>
+                        <h2>Termales del Ruiz</h2>
+                        <p>Manizales, Vereda Gallinazo</p>
+                        <h2>Hotel Termal La Quinta</h2>
+                        <p>Villamaría Vía Nevado Santa Isabel</p>
+                    </div>
+                </div>
+                <div class='texto flecha izquierda arriba' data-termales='termales_07'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Cundinamarca</h1>
+                        <h2>Estación Termal los Volcanes</h2>
+                        <p>Vía Chocontá – Machecta</p>
+                        <h2>Casablanca</h2>
+                        <p>Girardot</p>
+                        <h2>El Zipa</h2>
+                        <p>Vía Chía – Tabio</p>
+                        <h2>Santa Ana y Santa Lucía</h2>
+                        <p>Anapoima</p>
+                        <h2>Termales de Choachí</h2>
+                        <p>Choachí</p>
+                        <h2>El Manantial</h2>
+                        <p>Tenjo</p>
+                        <h2>Piscinas Azufradas</h2>
+                        <p>Guasca</p>
+                        <h2>Brotes de agua los Manantiales</h2>
+                        <p>Guatavita</p>
+                    </div>
+                </div>
+                <div class='texto flecha izquierda arriba' data-termales='termales_08'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Boyacá</h1>
+                        <h2>Hotel y Centro de Convenciones Dann Sochagota</h2>
+                        <p>Paipa</p>
+                        <h2>Hotel Termales El Batán</h2>
+                        <p>Paipa</p>
+                    </div>
+                </div>
+                <div class='texto flecha derecha abajo' data-termales='termales_09'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Cauca</h1>
+                        <h2>Termal Puente Tierra - Pilimbalá</h2>
+                        <p>Puracé</p>
+                        <h2>Termales de Agua hirviendo y Agua Tibia Pozo azul</h2>
+                        <p>Coconuco</p>
+                    </div>
+                </div>
+                <div class='texto flecha izquierda abajo' data-termales='termales_10'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Huila</h1>
+                        <h2>Termales de Rivera</h2>
+                        <p>Rivera</p>
+                        <h2>Termales de Villa Lozada</h2>
+                        <p>La Plata</p>
+                        <h2>Fuentes termales La Cabaña</h2>
+                        <p>Oporapa</p>
+                        <h2>Fuentes Termales de Sicán</h2>
+                        <p>Timaná</p>
+                        <h2>La Cañada y La Guillote</h2>
+                        <p>Tarqui</p>
+                    </div>
+                </div>
+                <div class='texto flecha izquierda abajo' data-termales='termales_11'>
+                    <div class='contenido'>
+                        <div class='cerrar'></div>
+                        <h1>Nariño</h1>
+                        <h2>Chiles</h2>
+                        <p>Chiles</p>
+                        <h2>La Cruz</h2>
+                        <p>La Cruz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+	<div id="contenidos_der">
+    	<div id="accordion">
+            <h3>Generalidades</h3>
+            <div>Colombia, en sus diferentes departamentos tiene una gran variedad de manantiales termales, cuyas características y composición del agua es única. <br><br>
+El uso del agua termal con fines terapéuticos, es un tratamiento complementario que puede ayudar a prevenir o mitigar algunas dolencias, y depende de las propiedades y composición del agua termal.<br><br> 
+Las aguas termales por la riqueza en los componentes minerales, pueden ser utilizadas en diferentes prácticas como balneoterapia y crenoterapia.  
+            </div>
+		</div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<script src="js/jquery-ui/external/jquery/jquery.js"></script>
+<script src="js/jquery-ui/jquery-ui.js"></script>
+<script src="scripts/jquery.svg.min.js"></script>
+<script src="scripts/jquery.svgdom.min.js"></script>
+<script src="scripts/mapa.js"></script>
+<script>
+
+$( "#accordion" ).accordion({
+  heightStyle: "content",
+  collapsible: true
+});
+
+$( "#button" ).button();
+$( "#button-icon" ).button({
+	icon: "ui-icon-gear",
+	showLabel: false
+});
+
+
+$( "#radioset" ).buttonset();
+
+
+$( "#controlgroup" ).controlgroup();
+
+
+$( "#tabs" ).tabs();
+
+
+$( "#datepicker" ).datepicker({
+	inline: true
+});
+
+
+$( "#tooltip" ).tooltip();
+
+// Hover states on the static widgets
+$( "#dialog-link, #icons li" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+</script>
+
+
+</body>
+</html>

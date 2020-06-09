@@ -1,0 +1,72 @@
+.mapa_svg {
+    border: none;
+    margin: 20px 0 40px;
+}
+
+#mapa_colombia {
+    width   : calc( 60vh * 390 / 532 );
+    height  : 60vh;
+    margin  : 5px auto;
+    padding : 0;
+    display : block;
+    position: relative;
+}
+
+.relleno {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill     : #FAFCFB;
+}
+
+.limites {
+    fill: #8C8C8C;
+}
+
+.icono {
+    fill: #2B8A85;
+    cursor: pointer;
+}
+
+.icono_relleno {
+    fill: #FAFCFB;
+}
+
+.icono.seleccionado {
+    fill: #CD6D2F;
+}
+/*.departamento {
+	clip-rule:evenodd;
+	fill:#f4f4f6;
+	fill-rule:evenodd;
+	stroke:#DCDCDC;
+	stroke-miterlimit:10;
+}
+
+.disponible {
+	fill:#a1afb9;
+	cursor: pointer;
+}
+
+.disponible.seleccionado {
+	fill:#00adb4;
+}*/
+
+#mapa_colombia .texto { color: white; display: none; font-size: 1em; position: fixed; width: 250px; padding: 10px; color: #c8d0d8; background: #0E4E76; }
+#mapa_colombia .texto.visible { display: block; }
+#mapa_colombia .texto .contenido { position: relative; }
+#mapa_colombia .texto.izquierda { padding-left: 20px; }
+#mapa_colombia .texto.derecha { padding-right: 20px; }
+#mapa_colombia .texto .contenido:before { position: absolute; width: 13px; height: 38px; display: block; content: " "; }
+#mapa_colombia .texto.izquierda .contenido:before { left: -33px; background: url( ../images/flecha-izquierda.png ) no-repeat; }
+#mapa_colombia .texto.derecha .contenido:before { right: -33px; background: url( ../images/flecha-derecha.png ) no-repeat; }
+#mapa_colombia .texto.arriba .contenido:before { top: -10px; }
+/*#mapa_colombia .texto.medio .contenido:before { top: calc(50% - 19px); }*/
+#mapa_colombia .texto.abajo .contenido:before { bottom: -10px; }
+
+#mapa_colombia .texto .cerrar { top: -19px; right: -7px; width: 35px; height: 34px; display: block; content: " "; background: url( ../images/close.png ) no-repeat; position: absolute; cursor: pointer; }
+
+#mapa_colombia .texto h1 { color: #5fb7ab; text-align: left; font-size:21px; }
+#mapa_colombia .texto h2 { margin-bottom: 5px; color: white; font-size:17px; }
+#mapa_colombia .texto p { margin-top: 0; color: white; text-align:left; font-size:13px; font-weight:300;}*/
+
+
